@@ -1,3 +1,9 @@
+td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .container {
     width: min(100% - 100px, 1340px);
     margin-inline: auto;
@@ -11,7 +17,7 @@
     margin: auto;
 }
 
-td {
+.table-first td {
     width: 33.33%;
     height: 50px;
     border: 1px solid #222;
@@ -19,20 +25,14 @@ td {
 
 }
 
-.tall-cell {
+.table-first .tall-cell {
     height: 200px;
 }
 
 /* --------------- */
-table {
+.second-table {
     width: 100%;
     border-collapse: collapse;
-}
-
-td {
-    border: 1px solid black;
-    text-align: center;
-    vertical-align: middle;
 }
 
 .parent td {
