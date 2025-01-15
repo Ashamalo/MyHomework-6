@@ -1,52 +1,62 @@
+table {
+    border-collapse: collapse;
+}
+
 td {
     border: 1px solid black;
     text-align: center;
     vertical-align: middle;
+    height: 50px;
 }
 
 .container {
     width: min(100% - 100px, 1340px);
     margin-inline: auto;
-    /* background-color: lightblue; */
 }
 
 .table-first {
     width: 75%;
-    border-collapse: collapse;
-    /* border-spacing: 0 0; */
     margin: auto;
 }
 
 .table-first td {
     width: 33.33%;
     height: 50px;
-    border: 1px solid #222;
     text-align: center;
-
 }
 
 .table-first .tall-cell {
     height: 200px;
 }
 
-/* --------------- */
+/* -----second table---------- */
 .second-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.parent td {
-    height: 50px;
-    /* Висота клітинок у батьківській таблиці */
+.wide-cell {
+    width: 60%;
+}
+
+.thin-cell {
+    width: 28%;
 }
 
 .nested {
     width: 80%;
-    /* Ширина дочірньої таблиці */
-
+    margin: 10px auto;
 }
 
-.nested td.tall {
+.nested td {
+    height: 50px;
+    width: 33.33%;
+}
+
+.nested .tall-cell {
+    height: 250px;
+}
+
+.nested .middle-cell {
     height: 200px;
-    /* Висота клітинки 4-7 у дочірній таблиці */
 }

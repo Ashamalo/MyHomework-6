@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table2</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Task #2</h1>
+        <!-- Батьківська таблиця -->
+        <caption>Parent table</caption>
+        <table class="second-table">
+            <tr>
+                <td colspan="2">1-2</td>
+                <td class="wide-cell">3</td>
+            </tr>
+            <tr>
+                <td class="thin-cell">4</td>
+                <td colspan="2" rowspan="2">
+
+                    <!-- Дочірня таблиця -->
+                    <table class="nested">
+                        <caption>Nested table</caption>
+                        <tr>
+                            <td>1</td>
+                            <td class="tall-cell" rowspan="3">2-8</td>
+                            <td class="middle-cell" rowspan="2">3-6</td>
+                        </tr>
+                        <tr>
+                            <td class="middle-cell" rowspan="2">4-7</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 28%;">7</td>
+            </tr>
+        </table>
+
+    </section>
+</body>
+
+</html>
