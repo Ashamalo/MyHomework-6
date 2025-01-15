@@ -1,0 +1,52 @@
+.container {
+    width: min(100% - 100px, 1340px);
+    margin-inline: auto;
+    /* background-color: lightblue; */
+}
+
+.table-first {
+    width: 75%;
+    border-collapse: collapse;
+    /* border-spacing: 0 0; */
+    margin: auto;
+}
+
+td {
+    width: 33.33%;
+    height: 50px;
+    border: 1px solid #222;
+    text-align: center;
+
+}
+
+.tall-cell {
+    height: 200px;
+}
+
+/* --------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.parent td {
+    height: 50px;
+    /* Висота клітинок у батьківській таблиці */
+}
+
+.nested {
+    width: 80%;
+    /* Ширина дочірньої таблиці */
+
+}
+
+.nested td.tall {
+    height: 200px;
+    /* Висота клітинки 4-7 у дочірній таблиці */
+}
