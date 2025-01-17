@@ -1,3 +1,7 @@
+h1 {
+    color: blueviolet;
+}
+
 .container {
     width: min(100% - 100px, 1340px);
     margin-inline: auto;
