@@ -1,3 +1,8 @@
+.container {
+    width: min(100% - 100px, 1340px);
+    margin-inline: auto;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -7,11 +12,6 @@ td {
     text-align: center;
     vertical-align: middle;
     height: 50px;
-}
-
-.container {
-    width: min(100% - 100px, 1340px);
-    margin-inline: auto;
 }
 
 .table-first {
